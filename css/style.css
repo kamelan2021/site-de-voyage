@@ -1,0 +1,367 @@
+body{
+    background-color: rgb(228, 215, 215);
+    margin: 0;
+}
+
+header, main{
+    width: 95%;
+    margin: auto;
+    /* border: 2px solid blue; */
+    background-color: #FFF;
+}
+main{
+    border-radius: 15px 15px 0 0;
+}
+/* debut des styles appliqués aux éléments du de la barre de navigation*/
+
+ .nav-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 0 3% 0 3%;
+}
+.nav-bar a{
+    font-size: 1.25em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.websit-name{
+    /* border: 1px solid red;  */
+    font-size: 1.8em; 
+    font-family: Tahoma,Verdana, Geneva,  sans-serif;
+    font-weight:500;
+}
+
+ .home{
+     
+     display: flex;
+     flex-direction: column-reverse;
+     align-self: center;
+    /* border: 1px solid green; */
+    /* width: 5%;  */
+} 
+.home a{
+    color: blue;
+}
+  .home a:hover{
+    color: blue;
+    font-weight: 700;
+}
+.point{
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.point:hover{
+    background-color: blue;
+}
+
+
+ul{
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    width: 90%;
+}
+ul a{
+    color: gray;
+    opacity: 1;
+}
+
+.as-buttom-red{
+    /* border: 1px solid violet; */
+    width: 10%;
+    height: 30px;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(255, 0, 0, .8);
+    border-radius: 10px;
+}
+.as-buttom-red a{
+    color: #FFF;
+}
+
+li{
+    align-self: center;
+} 
+
+.blue{
+    color:blue
+}
+
+/* fin les styles appliqués aux éléments  de la barre de navigation*/
+
+.section-principal{
+    padding: 0 3% 0 3%;
+}
+/* debut des styles appliqués aux éléments  de la deuxième section*/
+.section1{
+    display: flex;
+    /* border:1px solid green; */
+    margin: 2px;
+    padding: 2px;
+}
+.top-map {
+    display: flex;
+    
+}
+.top-map p{
+    font-weight: 700;
+    /* margin-bottom: -5%; */
+}
+
+.section1-text{
+    /* border: 1px solid grey; */
+    width: 50%;
+    padding-top: 5%;
+}
+.section1-text-h1{
+    font-size: 2em;
+    line-height: 1.8em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; ;
+}
+.section1-text-p{
+    font-size: 1.2em;
+    color: rgb(126, 126, 126);
+    opacity: 1;
+}
+
+.tbn-smallimage{
+    /* border:1px solid blue; */
+    width: 20%;
+}
+.one{
+    width: 20px;
+}
+.two{
+    width: 20px;
+    border-radius: 50%;
+}
+.three{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.four{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.as-button-center{
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background-color: rgb(240, 39, 39);
+    text-align: center;
+    padding: 10px 0;
+    width: 80%;
+    
+    /* margin-top: 1.5em;
+    
+    height: 40px; */
+    
+} 
+.as-button-center a{
+    color: #FFF;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* .as-button-center p{
+    color: #FFF;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-left: 8px;
+    align-items: center;
+    
+} */
+
+.section1-image{
+    /* border: 1px solid rgb(180, 31, 31); */
+    width: 50%;
+    position: relative;
+}
+.section1-image .blue{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.section1-image p{
+    font-size: 1.2em;
+    margin: 0;
+
+}
+.relief{
+    width: 80%;
+    height: 70vh;
+    margin-left: 20%;
+    border-radius: 50% 50% 0 0;
+}
+.destination{
+    /* border: 1px solid rgb(0, 0, 0); */
+    position: absolute;
+    background-color: #FFF;
+    border-radius: 5px;
+    top:10%;
+    left: 20%;
+    padding: 5px;
+}
+.uder-only{
+    /* border: 1px solid rgb(0, 0, 0); */
+    position: absolute;
+    background-color: #FFF;
+    border-radius: 5px;
+    top:-3%;
+    left: 60%;
+    padding: 5px;
+}
+.visit-japan{
+    /* border: 1px solid rgb(0, 0, 0); */
+    position: absolute;
+    top:50vh;
+    left: 50%;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+.destination, .uder-only, .visit-japan{
+    display: flex;
+}
+.destination img, .uder-only img, .visit-japan img{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* fin des styles appliqués aux éléments  de la prémière section*/
+
+/* debut des styles appliqués aux éléments  de la deuxième section*/
+.section2{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 253, 253);
+    padding: 3% 0;
+    
+}
+.section2 img{
+    height: 75px;
+    /* width: auto; */
+}
+.allince{
+    width: 100px;
+    margin-left: 5%;
+}
+.united{
+    margin-right: 10%;
+}
+/* fin des styles appliqués aux éléments  de la deuxième section*/
+
+
+/* debut des styles appliqués aux éléments  de la troisième section*/
+
+.section3{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 8%;
+
+}
+.column1{
+    /* border: 1px solid green; */
+    width: 35%;
+    padding-top: 2.5%;
+}
+.column1 h1{
+    font-size: 2em;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8em;
+
+}
+.column1 p{
+    font-size: 1.2em;
+    color: rgb(126, 126, 126);
+    opacity: 1;
+
+}
+.column1-link{
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background-color: rgb(240, 39, 39);
+    text-align: center;
+    padding: 10px 0;
+    width: 35%;
+    
+}
+.column1-link a{
+    color:#FFF;
+    text-decoration: none;
+}
+.column2{
+    /* border: 1px solid rgb(26, 7, 197); */
+    width: 65%;
+}
+.column1 p, .column2 p{
+    font-size: 1.2em;
+    color: rgb(126, 126, 126);
+    opacity: 1;
+}
+.lign1{
+    /* border: 1px dashed yellow; */
+    padding-bottom: 2.5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.destination-book{
+    /* border: 1px solid; */
+    padding: 0 10px;
+    margin-left: 7%;
+}
+
+.preparation-to-go{
+    /* border: 1px solid; */
+    padding: 0 10px;
+    margin-right: 5%;
+}
+.destination-book:hover, .preparation-to-go:hover, .go-to-destination:hover, .enjoy-you-vacation:hover{
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: -1px  2px grey;
+    border:1px solid rgb(197, 193, 193) 
+}
+
+.lign2{
+    /* border: 1px dashed rgb(0, 255, 64); */
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.go-to-destination{
+    /* border: 1px solid; */
+    padding: 0 10px;
+    margin-left: 7%;
+    
+}
+.enjoy-you-vacation{
+    /* border: 1px solid; */
+    padding: 0 10px;
+    margin-right: 5%;
+}
+
+
+/* fin des styles appliqués aux éléments  de la troisieme section*/
